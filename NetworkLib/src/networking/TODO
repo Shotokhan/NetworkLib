@@ -1,0 +1,2 @@
+1) Asynchronous communication between Client and Server with Datagram Sockets: an easy API like the one
+   for the synchronous communication done before. This could include the Observer pattern for the Client.
