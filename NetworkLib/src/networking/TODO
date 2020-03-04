@@ -1,6 +1,8 @@
 1) Asynchronous communication between Client and Server with Datagram Sockets: an easy API like the one
    for the synchronous communication done before. This could include the Observer pattern for the Client.
    
-2) Input/OutputStreams instead of DataInput/OutputStreams to make everything more generic?
+[ 2) Input/OutputStreams instead of DataInput/OutputStreams to make everything more generic?
    Doing so without changing other code, that is to say it uses DataInput/OutputStreams by default but
-   the library let the user change the type of stream without adding more variables.
+   the library let the user change the type of stream without adding more variables. ] No: every communication
+   is done with the defined Streams, other things related to Input/Output for example from file should be
+   done ad-hoc.
